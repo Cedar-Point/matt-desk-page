@@ -12,6 +12,7 @@
          window.navigation.reload();
       }
       function fsReload() {
+        alert("Reload");
         document.body.requestFullscreen();
         window.navigation.reload();
       }
@@ -21,7 +22,15 @@
     <button onclick="fsReload()">[]</button>
     <h1>Matt's Desk</h1>
     <hr/>
-    <h3 style="color:red;">Also Closed</h3>
+    <h2 style="color:red;">Also Closed</h2>
+    <hr/>
+    <h3>List of things not to talk to me about:</h3>
+    <ul>
+      <li>iPads</li>
+      <li>Cameras</li>
+      <li>Derek</li>
+      <li>iPads</li>
+    </ul>
   </body>
   <script>
     setInterval(reload, 30000);
